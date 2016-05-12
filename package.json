@@ -1,0 +1,32 @@
+{
+  "name": "eyeRunRequestor",
+  "version": "0.0.32",
+  "dependencies": {
+    "eyeos-gruntfile": "*"
+  },
+  "devDependencies": {
+    "chai": "1.9.1",
+    "grunt": "0.4.5",
+    "grunt-contrib-requirejs": "0.4.4",
+    "grunt-init": "0.3.2",
+    "grunt-karma": "0.9.0",
+    "grunt-mocha-test": "0.11.0",
+    "grunt-shell": "1.1.1",
+    "istanbul": "0.3.2",
+    "karma-chai": "0.1.0",
+    "karma-chrome-launcher": "0.1.4",
+    "karma-mocha": "0.1.9",
+    "karma-requirejs": "0.2.2",
+    "karma-sinon": "1.0.3",
+    "requirejs": "2.1.15",
+    "sinon": "1.10.3",
+    "deamdify": "0.1.1",
+    "grunt-browserify": "3.5.1",
+    "minifyify": "6.3.2",
+    "karma": "0.12.37"
+  },
+  "scripts": {
+    "test": "grunt test-client"
+  },
+  "license": "AGPL-3.0"
+}
